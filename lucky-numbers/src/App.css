@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.circle {
+  border-radius: 50%;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  padding: 10px;
+  background: #fff;
+  border: 3px solid #000;
+  color: #000;
+  text-align: center;
+  font: 26px Arial, Helvetica, sans-serif;
+}
+
+.extraCircle {
+  border-radius: 50%;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  padding: 10px;
+  background: #000;
+  border: 3px solid #fff;
+  color: #fff;
+  text-align: center;
+  font: 26px Arial, Helvetica, sans-serif;
+}
+
+.buttonsSection {
+  padding: 20px;
+  margin: 15px;
+}
+
+.resetWarning {
+  color: red;
+  font-style: bold;
+}
