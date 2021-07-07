@@ -2,6 +2,9 @@
   text-align: center;
   margin: 0;
   padding: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 .circle {
@@ -36,6 +39,10 @@
 }
 
 .resetWarning {
-  color: red;
   font-style: bold;
+  color: #9f6000;
+  background-color: #feefb3;
+  border-radius: 45%;
+  border: 1px solid grey;
+  width: 120px;
 }

@@ -43,7 +43,7 @@ class CreateLuckyNumbers extends React.Component {
                 <span className="circle">{this.state.luckyNum5}</span>
                 <span className="circle">{this.state.luckyNum6}</span>
                 <span className="extraCircle">{this.state.extraNum}</span>
-            </div> : <h3 className="resetWarning">Press reset</h3>
+            </div> : <div className="resetWarning"><h3>Press Reset</h3></div>
             }
             <div className="buttonsSection"> 
                 <button onClick={this.resetNumbers}>Reset</button>
